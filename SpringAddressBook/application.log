@@ -1,0 +1,12 @@
+2025-03-01 21:45:31.251 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - Starting SpringAddressBookApplication using Java 23.0.1 with PID 15492 (D:\Spring Address Book\SpringAddressBook\target\classes started by Asus in D:\Spring Address Book\SpringAddressBook)
+2025-03-01 21:45:31.253 [restartedMain] DEBUG [c.b.s.SpringAddressBookApplication      ] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 21:45:31.254 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - No active profile set, falling back to 1 default profile: "default"
+2025-03-01 21:45:33.871 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 21:45:34.214 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - Started SpringAddressBookApplication in 3.301 seconds (process running for 3.923)
+2025-03-01 21:45:34.217 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - Address Book App Started
+2025-03-01 21:46:23.273 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - Starting SpringAddressBookApplication using Java 23.0.1 with PID 15492 (D:\Spring Address Book\SpringAddressBook\target\classes started by Asus in D:\Spring Address Book\SpringAddressBook)
+2025-03-01 21:46:23.273 [restartedMain] DEBUG [c.b.s.SpringAddressBookApplication      ] - Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 21:46:23.273 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - No active profile set, falling back to 1 default profile: "default"
+2025-03-01 21:46:23.566 [restartedMain] WARN  [o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration] - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 21:46:23.664 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - Started SpringAddressBookApplication in 0.418 seconds (process running for 53.373)
+2025-03-01 21:46:23.666 [restartedMain] INFO  [c.b.s.SpringAddressBookApplication      ] - Address Book App Started
