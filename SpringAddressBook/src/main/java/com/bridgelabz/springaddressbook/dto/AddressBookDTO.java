@@ -1,46 +1,18 @@
 package com.bridgelabz.springaddressbook.dto;
 
-public class AddressBookDTO {
+import jakarta.validation.constraints.NotEmpty;
+import jakarta.validation.constraints.Pattern;
+import lombok.ToString;
 
-	private int id;
-    private String name;
-    private String phoneNumber;
-    private String city;
+public @ToString class AddressBookDTO {
 
-    public AddressBookDTO() {
-    }
+	@NotEmpty(message = "Name is a required field.")
+    @Pattern(regexp = "^[A-Za-z\\s]{2,}$", message = "Name must contain only letters and spaces, with at least 2 characters.")
+    public String name;
+    public String phoneNumber;
+    public String email;
+    public String city;
 
-    public AddressBookDTO(String name, String phoneNumber, String city) {
-        this.name = name;
-        this.phoneNumber = phoneNumber;
-        this.city = city;
-    }
     
-    public int getId() {
-        return id;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public void setPhoneNumber(String phoneNumber) {
-        this.phoneNumber = phoneNumber;
-    }
-
-    public String getCity() {
-        return city;
-    }
-
-    public void setCity(String city) {
-        this.city = city;
-    }
+    
 }
